@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+}
+/*MAIN TOP BAR STYLING*/
+a{
+    text-decoration: none;
+    cursor:pointer;
+    color:white;    
+}
+.list{
+    display:flex;
+    font-family:'Oswald',sans-serif;
+    background-color: black;
+}
+/*FIRST LIST ELEMENT*/   
+#logo-head,#logo-head:link,#logo-head:visited,#logo-head:hover,#logo-head:active{
+    position:absolute;
+    margin-left:50px;
+    padding:5px 15px 5px 15px;
+    letter-spacing:2px;
+    font-family:'Oswald',sans-serif;
+}
+#shp-logo{
+    max-width:42px;
+    max-height:42px;
+    vertical-align:middle;
+    padding:10px 0 0 10px;
+    padding-bottom:8px;
+}
+/*LIST ELEMENTS ON RIGHT OF PAGE*/
+.head-left{
+    list-style-type:none;
+    display:flex;
+    position:absolute;
+    margin-left:33.4em;
+    font-size:21px;
+}
+.head-left:hover{
+    cursor:pointer;
+}
+#li2{
+    padding:10px 8em 0 0;
+}
+#li2:hover{
+    text-decoration-line:underline;
+}
+#li3{
+    padding:10px 8.5em 0 0;   
+}
+#li4{
+    padding:10px 0 0 0;
+}
+
