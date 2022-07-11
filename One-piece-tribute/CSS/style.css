@@ -1,3 +1,4 @@
+/*SETTING PADDING AND MARGIN OF ALL ELEMENTS TO ZERO*/
 *{
     padding:0;
     margin:0;
@@ -5,15 +6,19 @@
 /*MAIN TOP BAR STYLING*/
 a{
     text-decoration: none;
-    cursor:pointer;
     color:white;    
 }
 .list{
     display:flex;
     font-family:'Oswald',sans-serif;
     background-color: black;
+    box-shadow: 0px 6px 10px #888888;
+
 }
 /*FIRST LIST ELEMENT*/   
+.link{
+    cursor:pointer;
+}
 #logo-head,#logo-head:link,#logo-head:visited,#logo-head:hover,#logo-head:active{
     position:absolute;
     margin-left:50px;
@@ -36,19 +41,25 @@ a{
     margin-left:33.4em;
     font-size:21px;
 }
-.head-left:hover{
+#li2{
+    margin:10px 8em 0 0;
     cursor:pointer;
 }
-#li2{
-    padding:10px 8em 0 0;
-}
-#li2:hover{
-    text-decoration-line:underline;
-}
+
 #li3{
-    padding:10px 8.5em 0 0;   
+    margin:10px 8.5em 0 0;  
+    cursor:pointer; 
 }
 #li4{
-    padding:10px 0 0 0;
+    margin:10px 0 0 0;
+    cursor:pointer;
 }
+
+/*UNDERLINE ANIMATIONS*/      
+.text:hover{
+    width:100%;
+    text-decoration:underline;
+} 
+
+/*BODY OF WEBSITE*/
 
