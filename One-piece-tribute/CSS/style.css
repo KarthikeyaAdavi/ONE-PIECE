@@ -1,22 +1,28 @@
+/*MAIN INDEX PAGE!!!*/
 /*SETTING PADDING AND MARGIN OF ALL ELEMENTS TO ZERO*/
+/*General tag settings*/
 *{
     padding:0;
     margin:0;
 }
-
 /*MAIN TOP BAR STYLING*/
+body{
+    background-color: #FFF;
+    background:linear-gradient(180deg,#0CAAF3,#CEA5EB 50%)
+}
 a{
     text-decoration: none;
     color:white;    
+}
+strong{
+    font-weight:900;
 }
 .list{
     display:flex;
     font-family:'Oswald',sans-serif;
     background-color: black;
-    box-shadow: 0px 6px 10px #87CEEB;
-
+    box-shadow: 0px 6px 10px slategray;
 }
-/*FIRST LIST ELEMENT*/   
 .link{
     cursor:pointer;
     margin:0 auto;
@@ -26,7 +32,7 @@ a{
     margin-left:50px;
     padding:5px 15px 5px 15px;
     letter-spacing:2px;
-    font-family:'Oswald',sans-serif;
+    list-style-type:none;
 }
 #shp-logo{
     max-width:42px;
@@ -40,46 +46,84 @@ a{
     list-style-type:none;
     display:flex;
     position:absolute;
-    margin-left:33.4em;
+    margin-left:48%;
     font-size:20.5px;
 }
 #li2,#li3,#li4{
     margin:10px 8em 0 0;
     cursor:pointer;
 }
-
-
 /*UNDERLINE ANIMATIONS*/      
 .link_text:hover{
     width:100%;
     text-decoration:underline;
 } 
-
 /*BODY OF WEBSITE*/
-body{
-    background-image: url("C:/Users/ASUS/Desktop/PROGRAMMING/One-piece-tribute/IMAGES/BG-P1.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
+/*tag or general settings*/        
+div,p{
+    margin:0;
 }
+.text{
+    font-family: 'Roboto', sans-serif; 
+    font-weight:bolder;
+}
+/*Article 1*/
 #Article_img{
     max-width:1500px;
     max-height:300px;   
 }
-#ARTICLE{
-    text-align: center;
-    margin:50px 0 100px 0;
-    vertical-align: middle;
-}
-div,p{ margin:0;}
-#text{
-    font-family: 'Roboto', sans-serif;
-    font-weight:bolder; 
+#p1{
     background-color:#ffd020; 
-    margin: 50 27% 25 27%;
+    margin: 50 24em 25 24em;
     padding:30 20 25 20;
-    border:dashed 5px #fe0212;
+    border:dashed 8px #fe0212;
+    min-width:15em;
 }
-.container{
-    width:80%;
+#CONTAINER-1{
+    text-align: center;
+    vertical-align: middle; 
+    padding:50px 0 50px 0;
+    margin:30 30 30 30;
+    background-image: url("../IMAGES/BG-P1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius:30px;
+    box-shadow:0px 6px 10px slategray;
+    min-width: 70em; 
+}
+/*Article 2*/
+#Article_img2{
+    max-width:1500px;
+    max-height:300px;   
+}
+#CONTAINER-2{
+    text-align: center;
+    vertical-align: middle;
+    min-width: 70em; 
+    padding:50px 0 50px 0;
+    margin:30 30 30 30;
+    background-image: url("../IMAGES/BG2-P1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius:30px;
+    box-shadow:0px 6px 10px slategray;
+}
+#p2{
+    background-color:#ffd020; 
+    border:dashed 8px #fe0212;
+    margin: 50 24em 25 24em;
+    padding:30 20 25 20; 
+    min-width:15em;   
+}
+/*MAIN CONTAINER OF 2 ARTICLES*/
+.container_main{
+    width:960px;
+    max-width:700px;
     margin:0 auto;
 }
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
+/*PLACES PAGE!!!!*/
